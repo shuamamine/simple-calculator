@@ -7,7 +7,7 @@ def cal(a,b,op):
     return a*b
   elif == '/':
      if b==0:
-       return "unable to divide by zero"
+        return "unable to divide by zero"
      else:
         return a/b
   else:
